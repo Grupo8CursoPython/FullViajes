@@ -53,6 +53,55 @@ nav {
     text-decoration: none;
 }
 
+/* Estilos para PC de escritorio */
+@media screen and (min-width: 1024px) {
+    /* Agrega aquí tus estilos específicos para PC de escritorio */
+    header {
+        padding: 20px 0;
+    }
+
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav-links li {
+        margin-right: 30px;
+    }
+
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 1023px) {
+    /* Agrega aquí tus estilos específicos para tablet */
+    nav {
+        padding: 0 10px;
+    }
+
+    .nav-links li {
+        margin-right: 15px;
+    }
+   
+}
+   
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+    /* Agrega aquí tus estilos específicos para celular */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+ }
+
 .container {
     max-width: 1440px;
     padding: 0 20px;
