@@ -1,0 +1,223 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2bccbf;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #2bccbf;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2bccbf;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para PC de escritorio */
+@media screen and (min-width: 1024px) {
+    /* Agrega aquí tus estilos específicos para PC de escritorio */
+    header {
+        padding: 20px 0;
+    }
+
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav-links li {
+        margin-right: 30px;
+    }
+
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 1023px) {
+    /* Agrega aquí tus estilos específicos para tablet */
+    nav {
+        padding: 0 10px;
+    }
+
+    .nav-links li {
+        margin-right: 15px;
+    }
+   
+}
+   
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+    /* Agrega aquí tus estilos específicos para celular */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+ }
+
+/* Estilos adicionales para la página de contacto */
+.contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contacto h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contacto img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto .campo {
+    margin-bottom: 20px;
+}
+
+.contacto label {
+    font-weight: bold;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto select,
+.contacto textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #003366;
+    background-color: transparent;
+    margin-bottom: 10px;
+    width: calc(100% - 40px); /* Ancho igual al 100% menos los paddings */
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #004b8d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Ancho automático */
+}
+
+.contacto button:hover {
+    background-color: #003366;
+}
+
+
+/* Estilos para el carrusel */
+
+.container-carousel {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+  
+}
+
+.carruseles {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+
+}
+
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
+}
+
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+

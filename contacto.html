@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon del sitio -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>Full Viajes</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/8895c913a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet "href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap">
+    <!-- Bootstrap icons -->
+    
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/section-carousel.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html"><img alt="agencia_viajes" src="img/logo01.png"/></a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contacto">
+            <img src="img/pareja-viajando.jpg" alt="Pareja viajando">
+            <div class ="about-servicios-text">
+                <h1>
+                    <span><i class="fa-solid fa-id-card"></i></span>
+                    Contactos
+                </h1>
+            </div>
+
+            <form action="#" method="post" id="formulario-contacto">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                </div>
+                <div class="campo">
+                    <label for="tipo-numero">Tipo de Número de contacto:</label>
+                    <select id="tipo-numero" name="tipo-numero">
+                        <option value="celular">Celular</option>
+                        <option value="telefono">Teléfono</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="numero">Número:</label>
+                    <input type="text" id="numero" name="numero" placeholder="Ingrese su celular/telefono sin el 0 del prefijo ni el 15. Ejemplo: 1122224444" required>
+                </div>
+                <div class="campo">
+                    <label for="consulta">Consulta:</label>
+                    <textarea id="consulta" name="consulta" placeholder="¿Cuál es su consulta?" maxlength="500" required></textarea>
+                </div>
+                <div class="campo">
+                    <input type="checkbox" id="acepta-notificaciones" name="acepta-notificaciones">
+                    <label for="acepta-notificaciones">Acepta recibir notificaciones vía email y/o whatsapp</label>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+    <footer>
+        <div class="redes_sociales">
+            <a href="https://www.facebook.com" target ="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com" target ="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target ="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.whatsapp.com" target ="_blank"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 Full Viajes / Codo a Codo / Grupo 8</p>
+    </footer>
+</body>
+</html>
