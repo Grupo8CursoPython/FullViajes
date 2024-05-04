@@ -299,3 +299,70 @@ footer{
 .contacto button:hover {
     background-color: #003366;
 }
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#024959;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}
+
+.imagen{
+    width: 100%;
+  }
+  .imagen img{
+    width: 100%;
+  }
+  .galeria{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  @media (min-width:100px){
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media (min-width:520px){
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width:728px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
