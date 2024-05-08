@@ -410,28 +410,28 @@ footer{
 
 
   #boton1 {
-    background-image: url(/img/d1.jpeg);
+    background-image: url("/img/d1.jpeg");
 
   }
 
   #boton2 {
-    background-image: url(/img/d2.jpeg);
+    background-image: url("/img/d2.jpeg");
   
   }
 
   #boton3 {
-    background-image: url(/img/d3.jpeg);
+    background-image: url("/img/d3.jpeg");
   }
 
   #boton4 {
-    background-image: url(/img/d4.jpeg);
+    background-image: url("/img/d4.jpeg");
   }
 
   #boton5 {
-    background-image: url(/img/d5.jpeg);
+    background-image: url("/img/d5.jpeg");
   }
   #boton6 {
-    background-image: url(/img/d6.jpeg);
+    background-image: url("/img/d6.jpeg");
   }
 
 
