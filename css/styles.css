@@ -37,9 +37,15 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
 
 .logo {
     font-size: 1.5rem;
@@ -108,10 +114,6 @@ nav {
 
  }
 
-.container {
-    max-width: 1440px;
-    padding: 0 20px;
-}
 
 .button {
     font-size: 1.1rem;
@@ -177,12 +179,18 @@ footer{
 }
 
 .about-servicios-text{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-servicios-text1{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -204,13 +212,6 @@ footer{
     opacity: 0.5;
   }
   
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    justify-content: center;
-  }
-
   .column {
     float: left;
     width: 25%;
@@ -370,3 +371,108 @@ footer{
         grid-template-columns: repeat(4, 1fr);
     }
   }
+
+  .container1 {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+  
+    }
+
+  .boton1, .boton2, .boton3, .boton4, .boton5, .boton6{
+    width: 100%; 
+    height: 230px; 
+    background-size: 120%;
+    background-position: center;
+    color: white;
+    font-size: 10px; 
+    border: none;
+    cursor: pointer;
+    text-align: unset;
+    box-shadow: 5px 8px 12px black;
+    text-shadow:  10px 10px 15px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+
+
+  .boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover, .boton6:hover  {
+    transform: scale(1.1);
+  }
+
+
+  #boton1 {
+    background-image: url(/img/1.jpeg);
+
+  }
+
+  #boton2 {
+    background-image: url(/img/2.jpeg);
+  
+  }
+
+  #boton3 {
+    background-image: url(/img/3.jpeg);
+  }
+
+  #boton4 {
+    background-image: url(/img/4.jpeg);
+  }
+
+  #boton5 {
+    background-image: url(/img/5.jpeg);
+  }
+  #boton6 {
+    background-image: url(/img/6.jpeg);
+  }
+
+
+.texto {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6;
+  position: absolute;
+  color: rgb(248, 169, 169);
+ text-decoration-line: inherit;
+ 
+}
+
+
+.texto:hover {
+opacity: 10 ;
+}
+
+
+  /* @media all and (max-width: 1200px ){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: (2 1fr) ;
+  }
+} */
+
+  @media all and (max-width: 900px ){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat (2, 1fr) 
+
+   
+  }
+}

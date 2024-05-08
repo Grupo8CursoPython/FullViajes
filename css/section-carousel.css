@@ -75,7 +75,7 @@
 }
 
 .carousel-control {
-  position: fixed;
+  position: absolute;
   right: 10px;
   display: flex;
   flex-direction: column-reverse;
