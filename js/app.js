@@ -66,3 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Mostrar la primera tarjeta sin transiciones al cargar la página
   showCard(currentCardIndex, 'next');
 });
+
+document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('.menu').classList.toggle('active');
+  this.classList.toggle('active'); // Agregar la clase active al icono
+});
