@@ -468,11 +468,9 @@ opacity: 10 ;
 } */
 
   @media all and (max-width: 900px ){
-  .container{
+  .container1{
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: repeat (2, 1fr) 
-
-   
   }
 }
