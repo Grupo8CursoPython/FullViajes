@@ -407,7 +407,7 @@ footer{
 
 
   .boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover, .boton6:hover  {
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
 
 
