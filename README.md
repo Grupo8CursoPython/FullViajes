@@ -9,6 +9,11 @@ El sitio web desarrollado cuenta con las siguientes páginas:
 - destinos.html
 - ofertas.html
 - contacto.html
+- info-nosotros.html
+- info1.html
+- info2.html
+- info3.html
+- info4.html
 
 
 2.- El sitio web debe incluir un formulario de contacto, con al menos 5
@@ -27,12 +32,20 @@ El sitio web desarrollado cuenta con diseño responsivo para cualquier dispositi
 
 ![alt text](img/pautas/responsivo.png)
 
+De igual forma se incluyó el menú hamburguesa para estilizar mejor el sitio.
+
 
 4.- Utilizar al menos una animación, transformación o una transición.
 
-- Animación de carruselen la página principal y animación de imagenes en ofertas.
+- Animación de carrusel en la página principal,
+- Animación de imagenes en ofertas.
+- Animación de imagenes en Destinos.
  
+![alt text](img/pautas/animacion2.png)
+
 ![alt text](img/pautas/animacion.png)
+
+![alt text](img/pautas/animacion1.png)
 
 
 5.- Poseer una estructura HTML maquetada con Flexbox y/o Grid.
